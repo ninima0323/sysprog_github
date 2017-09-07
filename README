@@ -4,6 +4,7 @@ HOW TO RUN
  - In 'shmem_server' side, write the message that you want to pass to 'shmem_client'.
  - Check the result of 'shmem_client' side.
 
+hello!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 2. mq_* : client process will be insert message into message queue and server will be print and pop out top of the queue.
  - Run 'mq_client' several times and run 'mq_server' to print out and pop out the top of message queue
  - If message queue is empty, 'mq_server' will print out message that 'empty queue'.
